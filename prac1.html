@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Student Registration Form</h3>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="enter the text" name="email">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="enter the password" name="pass">
+        <br>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" placeholder="enter 10 digit number" name="phone">
+        <br>
+        <br>
+        <label for="website">Website:</label>
+        <input type="url" id="website" placeholder="https://example.com" name="website">
+        <br>
+        <br>
+        <label for="course">Search Course:</label>
+        <input type="search" id="course" placeholder="Search for a course" name="course">
+        <br>
+        <br>
+        </fieldset> 
+        <br>
+        <br>
+        <fieldset>
+            <legend>Other Details</legend>
+        <label for="age">Age</label>
+        <input type="number" placeholder="enter your age" name="age">
+        <br>
+        <br
+        <label for="DOB">Date Of Birth</label>
+        <Input type="date" name="DOB" placeholder="enter the date">
+        <br>
+        <br>
+        <label for="pt">Preffered Time</label>
+        <input type="time" id="pt" name="pt" >
+        <br>
+        <br>
+        <label for="mdat">Meeting Date and Time</label>
+        <input type="datetime-local" id="mdat" name="mdat">
+        <br>
+        <br>
+        <label for="gender" >GENDER:</label>
+        <input type="radio" id="gender" name="gen" value="Male">
+        <label for="gender"> Male</label>
+        <input type="radio" id="female" name="gen" value="Female">
+        <label for="female"> Female</label>
+        <br>
+        <br>
+        <label for="hob">Hobbies</label>
+        <input type="checkbox" id="hob">Reading
+        <input type="checkbox" id="hob" >Sports
+        <br>
+        <br>
+        <label for="co">Favorite Colour</label>
+        <input type="color" id="co" name="co">
+        <br>
+        <br>
+        <label for="skill">Skill Level</label>
+        <input type="range" id="skill" name="skill" min="0" max="10" value="0">
+</fieldset>>
+<br>
+<br>
+<fieldset>
+    <legend>Selection</legend>
+    <label for="course" >course</label>
+    <select id="course" name="course" multiple>
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="javascript">JavaScript</option>
+    </select>
+    <br>
+    <br>
+    <label for="city">City</label>
+    <input type="text" id="city" name="city" placeholder="Enter your city">
+    <br>
+    <br>
+    <label for="pic" >Upload Profile Picture:</label>
+    <input type="file" id="pic" name="pic" accept=".jpg,.jpeg,.png">
+</fieldset>
+<br>
+<br>
+<fieldset>
+    <legend>Comments</legend>
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="4" coloums="50" placeholder="Write your comments here"></textarea>
+</fieldset>
+<br>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+    </form>
+</body>
+</html>
